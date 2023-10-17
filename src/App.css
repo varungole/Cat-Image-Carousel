@@ -1,0 +1,66 @@
+.header {
+   background-color: black;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   font-size: 28px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Header styling */
+.Header1 {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Image container styling */
+.actual-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.actual-image img {
+  max-width: 100%;
+  max-height: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons styling */
+.previous, .go-forward {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.previous:hover, .go-forward:hover {
+  background-color: #0056b3;
+}
